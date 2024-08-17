@@ -1,0 +1,19 @@
+<!-- <button (click)="increment()">Increment</button>
+
+<div>Current Count: {{ count$ | async }}</div>
+
+<button (click)="decrement()">Decrement</button>
+
+<button (click)="reset()">Reset Counter</button> -->
+<div class="card">
+    <div class="card-header">
+      <h2>Counter</h2>
+    </div>
+    <div class="card-body">
+      <h1>{{ count$ | async }}</h1>
+      <button class="btn btn-increment" (click)="increment()">Increment</button>
+      <button class="btn btn-decrement" (click)="decrement()">Decrement</button>
+      <button class="btn btn-reset" (click)="reset()">Reset</button>
+    </div>
+  </div>
+  

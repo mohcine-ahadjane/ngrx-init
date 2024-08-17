@@ -1,0 +1,44 @@
+.card {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-header {
+    margin-bottom: 20px;
+  }
+  
+  .card-body h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-increment {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-decrement {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-reset {
+    background-color: #6c757d;
+    color: white;
+  }
+  
